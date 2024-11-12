@@ -15,4 +15,4 @@ if (answer === true) {
 else{
     result = "The square root is not calculated."
     }
-document.querySelector(".T5").innerHTML = result;
+document.querySelector(".T6").innerHTML = result;

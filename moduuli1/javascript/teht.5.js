@@ -1,5 +1,5 @@
 'use strict';
-const year = prompt("Syötä vuosiluku: ")
+const year = +prompt("Syötä vuosiluku: ")
 let result;
     if (year % 400 === 0){
         result = "Vuosi on karkausvuosi";}
