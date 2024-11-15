@@ -5,11 +5,11 @@ const kuvaElem = document.querySelector('#target');
 const tekstiElem = document.getElementById('trigger');
 
 // määritellään tapahtumankäsittelijöiden funktiot
-function hiiriPaalle(evt) {
+function hiiriPaalle() {
     // kuvan sisältö vaihtuu picA --> picB
     kuvaElem.src = 'img/picB.jpg';
 }
-function hiiriPois(evt) {
+function hiiriPois() {
     // kuvan sisältö vaihtuu takaisin
     kuvaElem.src = 'img/picA.jpg';
 }
